@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawernavigation"
+    app:startDestination="@id/localizacion">
+
+    <fragment
+        android:id="@+id/grupos"
+        android:name="com.example.parcial3kt.Grupos"
+        android:label="fragment_grupos"
+        tools:layout="@layout/fragment_grupos" />
+    <fragment
+        android:id="@+id/localizacion"
+        android:name="com.example.parcial3kt.Localizacion"
+        android:label="fragment_localizacion"
+        tools:layout="@layout/fragment_localizacion" />
+    <fragment
+        android:id="@+id/servicios"
+        android:name="com.example.parcial3kt.Servicios"
+        android:label="fragment_servicios"
+        tools:layout="@layout/fragment_servicios" />
+    <fragment
+        android:id="@+id/mapa"
+        android:name="com.example.parcial3kt.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+</navigation>

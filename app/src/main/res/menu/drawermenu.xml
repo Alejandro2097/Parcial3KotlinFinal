@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/servicios"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="Servicios"
+            ></item>
+
+        <item android:id="@+id/grupos"
+                 android:title="Grupo"
+                 android:icon="@drawable/ic_baseline_menu_book_24">
+             </item>
+        <item android:id="@+id/localizacion"
+            android:title="Localización"
+            android:icon="@drawable/ic_baseline_group_24"
+            ></item>
+
+        <item android:id="@+id/mapa"
+              android:title="Mapa"
+              android:icon="@drawable/ic_baseline_add_location_24"
+        ></item>
+
+
+</menu>
